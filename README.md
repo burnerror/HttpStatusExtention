@@ -3,9 +3,9 @@ This is a fork of [HttpStatusExtension](https://github.com/denpadokei/HttpStatus
 
 ## Dependencies  
 SiraUtil  
-[HttpSiraStatus](https://github.com/denpadokei/beatsaber-http-status)  
-SongDetailsCache >= 1.2.2
 SongCore  
+[HttpSiraStatus](https://github.com/denpadokei/beatsaber-http-status)  
+SongDetailsCache >= 1.2.2 
   
 # Note  
 BeatSaberHTTPStatus from denpadokei is needed.
