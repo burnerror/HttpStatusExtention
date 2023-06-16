@@ -1,14 +1,14 @@
 # HttpStatusExtention
 This is a fork of [HttpStatusExtension](https://github.com/denpadokei/HttpStatusExtention) with support for BeatLeader Star Ranking
 
-## 依存MOD  
+## Dependencies  
 SiraUtil  
 [HttpSiraStatus](https://github.com/denpadokei/beatsaber-http-status)  
 SongDetailsCache >= 1.2.2
 SongCore  
   
-# 注意  
-BeatSaberHTTPStatusはデンパ時計が作ったものを使用してください。  
+# Note  
+BeatSaberHTTPStatus from denpadokei is needed.
   
 ### Status object
 
