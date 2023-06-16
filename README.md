@@ -10,25 +10,25 @@ SongDetailsCache >= 1.2.2
 # Note  
 BeatSaberHTTPStatus from denpadokei is needed.
   
-### Status object
+### Status object (translated)
 
 ```js
 StatusObject = {
 　"performance": null | {
-		"current_pp": Double, // スコアに応じた取得可能PP
+		"current_pp": Double, // gained PP score 
   },
   "beatmap": null | {
-    "customLabel": 譜面の難易度につけられたカスタムラベルです。
-    "pp": ランク譜面の時PPが入ります。
-    "star": スコアセイバーの星
-    "starBL": Beatleader Star Ranking
-    "downloadCount": ダウンロード回数
-    "upVotes": アップボーテ数
-    "downVotes": ダウンボーテ数
-    "rating": アップボーテとダウンボーテの比率みたいなもの
+    "customLabel": custom difficulty name
+    "pp": total PP score
+    "star": ScoreSaber star ranking
+    "starBL": Beatleader star ranking
+    "downloadCount": number of downloads
+    "upVotes": number of upvotes
+    "downVotes": number of downvotes
+    "rating": up- and downvotes ratio
   }
 },
 OtherObject = {
-    "srm_queue_status": Boolean // キューが開いてたらtrue.閉じてたらfalse.
+    "srm_queue_status": Boolean // true on open queue, false on closed queue.
 }
 ```
