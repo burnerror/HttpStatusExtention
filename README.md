@@ -1,10 +1,10 @@
 # HttpStatusExtention
-HttpStatusでは表示できない情報を追加で送信します。  
-今のところ下記のオプションが追加されます。  
+This is a fork of [HttpStatusExtension](https://github.com/denpadokei/HttpStatusExtention) with support for BeatLeader Star Ranking
+
 ## 依存MOD  
 SiraUtil  
 [HttpSiraStatus](https://github.com/denpadokei/beatsaber-http-status)  
-SongDetailsCache  
+SongDetailsCache >= 1.2.2
 SongCore  
   
 # 注意  
@@ -21,6 +21,7 @@ StatusObject = {
     "customLabel": 譜面の難易度につけられたカスタムラベルです。
     "pp": ランク譜面の時PPが入ります。
     "star": スコアセイバーの星
+    "starBL": Beatleader Star Ranking
     "downloadCount": ダウンロード回数
     "upVotes": アップボーテ数
     "downVotes": ダウンボーテ数
