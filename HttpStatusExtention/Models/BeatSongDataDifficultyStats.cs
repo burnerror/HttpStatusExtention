@@ -3,6 +3,7 @@
     public class BeatSongDataDifficultyStats
     {
         public float Star { get; set; }
+        public float StarBL { get; set; }
         public float NJS { get; set; }
         public int Bombs { get; set; }
         public int Notes { get; set; }

@@ -41,6 +41,7 @@ namespace HttpStatusExtention.SongDetailsCaches
                     {
                         Difficulty = SongDetailsConveter.ConvertToBeatMapDifficulty(diff.difficulty),
                         Star = diff.stars,
+                        StarBL = diff.starsBeatleader,
                         NJS = diff.njs,
                         Bombs = (int)diff.bombs,
                         Notes = (int)diff.notes,
